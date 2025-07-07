@@ -18,7 +18,7 @@ jobs:
         id: deployment
         uses: actions/upload-pages-artifact@v3
         with:
-          path: publish/
+          path: public/
 
   deploy:
     needs: build
